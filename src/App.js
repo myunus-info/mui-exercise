@@ -9,7 +9,7 @@ import Containers from './components/Containers/Containers';
 import DataGridComp from './components/DataGridComp/DataGridComp';
 import Dialogs from './components/Dialogs/Dialogs';
 import DrawerComp from './components/DrawerComp/DrawerComp';
-import GridLayout from './components/GridLayoiut/GridLayout';
+import GridLayout from './components/GridLayout/GridLayout';
 // import ImagesLists from "./components/ImagesLists/ImagesLists";
 import Links from './components/Links/Links';
 import ListNested from './components/ListNested/ListNested';
@@ -20,8 +20,10 @@ import Progressbar from './components/Progressbar/Progressbar';
 import RatingComp from './components/RatingComp/RatingComp';
 import ResponsiveNavbar from './components/ResponsiveNavbar/ResponsiveNavbar';
 import SnackbarComp from './components/SnackbarComp/SnackbarComp';
+import StyledComp from './components/StyledComp/StyledComp';
 import Tabss from './components/Tabss/Tabss';
 import TextFields from './components/TextFields/TextFields';
+import Theming from './components/Theming/Theming';
 import Texting from './components/Typography/Typography';
 
 function App() {
@@ -52,6 +54,8 @@ function App() {
       <RatingComp />
       {/* <ImagesLists /> */}
       <DataGridComp />
+      <StyledComp />
+      <Theming />
     </>
   );
 }
