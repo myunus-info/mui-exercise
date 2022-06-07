@@ -9,6 +9,7 @@ import Containers from './components/Containers/Containers';
 import DataGridComp from './components/DataGridComp/DataGridComp';
 import Dialogs from './components/Dialogs/Dialogs';
 import DrawerComp from './components/DrawerComp/DrawerComp';
+import FormYup from './components/FormYup/FormYup';
 import GridLayout from './components/GridLayout/GridLayout';
 // import ImagesLists from "./components/ImagesLists/ImagesLists";
 import Links from './components/Links/Links';
@@ -25,6 +26,7 @@ import Tabss from './components/Tabss/Tabss';
 import TextFields from './components/TextFields/TextFields';
 import Theming from './components/Theming/Theming';
 import Texting from './components/Typography/Typography';
+import FormValidation from './FormValidation/FormValidation';
 
 function App() {
   return (
@@ -56,6 +58,8 @@ function App() {
       <DataGridComp />
       <StyledComp />
       <Theming />
+      <FormYup />
+      <FormValidation />
     </>
   );
 }

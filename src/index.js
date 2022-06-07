@@ -7,14 +7,14 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
 import './index.css';
-import { ThemeProvider } from '@mui/material';
-import { theme } from './components/Theming/theme';
+// import { ThemeProvider } from '@mui/material';
+// import { theme } from './components/Theming/theme';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
-      <App />
-    </ThemeProvider>
+    {/* <ThemeProvider theme={theme}> */}
+    <App />
+    {/* </ThemeProvider> */}
   </React.StrictMode>
 );
