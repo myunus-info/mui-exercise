@@ -28,7 +28,7 @@
 // import Texting from './components/Typography/Typography';
 // import FormValidation from './FormValidation/FormValidation';
 
-import Navigator from './components/Dashboard/Navigator';
+import Paperbase from './components/Dashboard/Paperbase';
 function App() {
   return (
     <>
@@ -62,7 +62,7 @@ function App() {
       <FormYup /> */}
       {/* <FormValidation /> */}
 
-      <Navigator />
+      <Paperbase />
     </>
   );
 }

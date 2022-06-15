@@ -1,16 +1,17 @@
 import { AppBar, Avatar, Grid, IconButton, Toolbar } from '@mui/material';
 import React from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
+import PropTypes from 'prop-types';
 
 const Header = props => {
   const { onDrawerToggle } = props;
 
   return (
-    <AppBar>
+    <AppBar color="primary" position="sticky" elevation={0}>
       <Toolbar>
-        <Grid container>
-          <Grid item>
-            <IconButton>
+        <Grid container spacing={1} alignItems="center">
+          <Grid item sx={{ display: { sm: 'none', xs: 'block' } }}>
+            <IconButton color="inherit" aria-label="open drawer" onClick={onDrawerToggle} edge="start">
               <MenuIcon />
             </IconButton>
           </Grid>
@@ -24,6 +25,10 @@ const Header = props => {
       </Toolbar>
     </AppBar>
   );
+};
+
+Header.propTypes = {
+  onDrawerToggle: PropTypes.func.isRequired,
 };
 
 export default Header;

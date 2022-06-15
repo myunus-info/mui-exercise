@@ -56,7 +56,7 @@ const itemCategory = {
 const Navigator = props => {
   const { ...other } = props;
   return (
-    <Drawer variant="permanent">
+    <Drawer variant="permanent" {...other}>
       <List disablePadding>
         <ListItem sx={{ ...item, ...itemCategory, fontSize: 22, color: '#fff' }}>Paperbase</ListItem>
         <ListItem sx={{ ...item, ...itemCategory }}>
